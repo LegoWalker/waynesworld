@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/waynesworld/static/css/main.e0b0d877.chunk.css",
+    "main.js": "/waynesworld/static/js/main.6e286468.chunk.js",
+    "main.js.map": "/waynesworld/static/js/main.6e286468.chunk.js.map",
+    "runtime-main.js": "/waynesworld/static/js/runtime-main.e70af964.js",
+    "runtime-main.js.map": "/waynesworld/static/js/runtime-main.e70af964.js.map",
+    "static/js/2.50c014c0.chunk.js": "/waynesworld/static/js/2.50c014c0.chunk.js",
+    "static/js/2.50c014c0.chunk.js.map": "/waynesworld/static/js/2.50c014c0.chunk.js.map",
+    "index.html": "/waynesworld/index.html",
+    "precache-manifest.c9293b8119305f05a111422cc5ae105d.js": "/waynesworld/precache-manifest.c9293b8119305f05a111422cc5ae105d.js",
+    "service-worker.js": "/waynesworld/service-worker.js",
+    "static/css/main.e0b0d877.chunk.css.map": "/waynesworld/static/css/main.e0b0d877.chunk.css.map",
+    "static/js/2.50c014c0.chunk.js.LICENSE.txt": "/waynesworld/static/js/2.50c014c0.chunk.js.LICENSE.txt",
+    "static/media/logo.png": "/waynesworld/static/media/logo.398ab09e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e70af964.js",
+    "static/js/2.50c014c0.chunk.js",
+    "static/css/main.e0b0d877.chunk.css",
+    "static/js/main.6e286468.chunk.js"
+  ]
+}
