@@ -1,34 +1,29 @@
 {
-  "name": "waynesworld",
-  "version": "0.1.0",  
+  "name": "contactcards",
+  "version": "0.1.0",
   "private": true,
-  "homepage": "http://LegoWalker.github.io/waynesworld",
   "dependencies": {
-    "@reduxjs/toolkit": "^1.4.0",
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.5.0",
-    "@testing-library/user-event": "^7.2.1",
-    "@types/jest": "^24.9.1",
-    "@types/node": "^12.12.62",
-    "@types/react": "^16.9.51",
-    "@types/react-dom": "^16.9.8",
-    "@types/react-redux": "^7.1.9",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-redux": "^7.2.1",
-    "react-scripts": "3.4.3",
-    "typescript": "^3.8.3"
+    "@testing-library/jest-dom": "^5.15.0",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3",
+    "web-vitals": "^1.1.2"
   },
   "scripts": {
     "start": "react-scripts start",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",    
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject" 
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
-    "extends": "react-app"
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
   },
   "browserslist": {
     "production": [
@@ -43,6 +38,8 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^3.1.0"
-  }
+    "gh-pages": "^3.2.3"
+  },
+
+  "homepage": "http://LegoWalker.github.io/contactcards"
 }
