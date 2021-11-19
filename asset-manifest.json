@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/contactcards/static/css/main.091b3dde.chunk.css",
-    "main.js": "/contactcards/static/js/main.61c73c04.chunk.js",
-    "main.js.map": "/contactcards/static/js/main.61c73c04.chunk.js.map",
-    "runtime-main.js": "/contactcards/static/js/runtime-main.462eadcd.js",
-    "runtime-main.js.map": "/contactcards/static/js/runtime-main.462eadcd.js.map",
-    "static/js/2.5fa0090c.chunk.js": "/contactcards/static/js/2.5fa0090c.chunk.js",
-    "static/js/2.5fa0090c.chunk.js.map": "/contactcards/static/js/2.5fa0090c.chunk.js.map",
-    "static/js/3.6fb8a7e2.chunk.js": "/contactcards/static/js/3.6fb8a7e2.chunk.js",
-    "static/js/3.6fb8a7e2.chunk.js.map": "/contactcards/static/js/3.6fb8a7e2.chunk.js.map",
-    "index.html": "/contactcards/index.html",
-    "static/css/main.091b3dde.chunk.css.map": "/contactcards/static/css/main.091b3dde.chunk.css.map",
-    "static/js/2.5fa0090c.chunk.js.LICENSE.txt": "/contactcards/static/js/2.5fa0090c.chunk.js.LICENSE.txt"
+    "main.css": "/waynesworld/static/css/main.091b3dde.chunk.css",
+    "main.js": "/waynesworld/static/js/main.61c73c04.chunk.js",
+    "main.js.map": "/waynesworld/static/js/main.61c73c04.chunk.js.map",
+    "runtime-main.js": "/waynesworld/static/js/runtime-main.62ea3f7e.js",
+    "runtime-main.js.map": "/waynesworld/static/js/runtime-main.62ea3f7e.js.map",
+    "static/js/2.5fa0090c.chunk.js": "/waynesworld/static/js/2.5fa0090c.chunk.js",
+    "static/js/2.5fa0090c.chunk.js.map": "/waynesworld/static/js/2.5fa0090c.chunk.js.map",
+    "static/js/3.6fb8a7e2.chunk.js": "/waynesworld/static/js/3.6fb8a7e2.chunk.js",
+    "static/js/3.6fb8a7e2.chunk.js.map": "/waynesworld/static/js/3.6fb8a7e2.chunk.js.map",
+    "index.html": "/waynesworld/index.html",
+    "static/css/main.091b3dde.chunk.css.map": "/waynesworld/static/css/main.091b3dde.chunk.css.map",
+    "static/js/2.5fa0090c.chunk.js.LICENSE.txt": "/waynesworld/static/js/2.5fa0090c.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.462eadcd.js",
+    "static/js/runtime-main.62ea3f7e.js",
     "static/js/2.5fa0090c.chunk.js",
     "static/css/main.091b3dde.chunk.css",
     "static/js/main.61c73c04.chunk.js"
