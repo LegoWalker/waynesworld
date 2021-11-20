@@ -2,17 +2,36 @@ import React, { useState, useEffect } from 'react'
 import './App.css';
 import ContactsList from './ContactCards/ContactsList';
 import TempControl from './TempControl/TempControl';
+import logo from './WaynesWorld.png';
+import { Link } from 'react-router-dom';
 
 
 const Navigate = () => {
+    const navStyle = {
+        color: 'white'
+    };
 
   return(
     <nav >
-        <h3>Logo</h3>
+        <Link to='/waynesworld'>
+            <img src={logo} alt="logo" width='170' />
+        </Link>
         <ul className='nav-links'>
-            <li>About</li>
-            <li>Contacts</li>
-            <li>Temperature</li>
+            <Link style={navStyle} to='/waynesworld'> 
+                <li> Home </li>       
+            </Link>
+            |
+            <Link style={navStyle} to='/contactslist'>
+                <li> Contacts </li> 
+            </Link>
+            |
+            <Link style={navStyle} to='/tempcontrol'>
+                <li> Temperature </li> 
+            </Link>
+            |
+            <Link style={navStyle} to='/about'>
+                <li> About </li> 
+            </Link>
         </ul>
     </nav>
   );
