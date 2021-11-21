@@ -1,14 +1,12 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 import './App.css';
-import ContactsList from './ContactCards/ContactsList';
-import TempControl from './TempControl/TempControl';
 import logo from './WaynesWorld.png';
 import { Link } from 'react-router-dom';
 
 
 const Navigate = () => {
     const navStyle = {
-        color: 'white'
+        color: 'white'        
     };
 
   return(
@@ -24,6 +22,10 @@ const Navigate = () => {
             <Link style={navStyle} to='/contactslist'>
                 <li> Contacts </li> 
             </Link>
+            |
+            <Link style={navStyle} to='/shop'>
+                <li> DynamicNav </li> 
+            </Link>         
             |
             <Link style={navStyle} to='/tempcontrol'>
                 <li> Temperature </li> 
