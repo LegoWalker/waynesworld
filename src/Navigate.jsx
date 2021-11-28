@@ -6,7 +6,8 @@ import { Link } from 'react-router-dom';
 
 const Navigate = () => {
     const navStyle = {
-        color: 'white'        
+        color: 'white',
+        textDecoration: 'none'
     };
 
   return(

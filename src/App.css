@@ -8,8 +8,8 @@ nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  min-height: 11vh;
-  background: rgb(42, 105, 136);
+  min-height: 8vh;
+  background: rgb(13, 97, 194);
   color:white;
   margin-bottom: 10px;
 }
@@ -20,4 +20,5 @@ nav {
   justify-content: space-around;
   align-items: center;
   list-style: none;  
+  text-decoration: none;
 }

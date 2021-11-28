@@ -21,7 +21,7 @@ function Shop() {
     }
 
     return (
-        <div>
+        <div style={{textAlign: 'center'}}>
             <h2>Fortnight - Latest battle royale Cosmetics</h2>
              {items.map((item) => (
                 <h3 key={item.id}> 
