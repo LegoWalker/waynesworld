@@ -3,6 +3,7 @@ import About from './About';
 import './App.css';
 import ContactsList from './ContactCards/ContactsList';
 import Shop from './DynamicNav/Shop'
+import Form from './Forms/Form'
 import ItemDetail from './DynamicNav/ItemDetail'; 
 import Navigate from './Navigate';
 import TempControl from './TempControl/TempControl';
@@ -21,6 +22,7 @@ const App = () => {
             <Route path="/contactslist" component={ContactsList}/>  
             <Route path="/shop" exact component={Shop}/>
             <Route path="/shop/:id" component={ItemDetail}/>
+            <Route path="/form" component={Form}/>
           </Switch>
       </div>
     </Router>

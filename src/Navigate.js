@@ -20,6 +20,10 @@ const Navigate = () => {
                 <li> Home </li>       
             </Link>
             |
+            <Link style={navStyle} to='/form'> 
+                <li> Form </li>       
+            </Link>
+            |
             <Link style={navStyle} to='/contactslist'>
                 <li> Contacts </li> 
             </Link>
