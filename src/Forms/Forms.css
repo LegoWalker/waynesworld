@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:300);
 
 .form-body {
-  background: silver;
+  background: rgb(163, 148, 148);
   display: flex;
   min-height: 100vh;
   justify-content: center;
@@ -60,6 +60,6 @@ input {
   cursor: pointer;
 }
 
-button:disabled {
+.form-button:disabled {
   cursor: default;
 }
