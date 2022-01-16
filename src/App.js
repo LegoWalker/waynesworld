@@ -1,6 +1,7 @@
 import React from 'react';
 import About from './About';
 import './App.css';
+import ShoppingList from './ShoppingList/ShoppingList';
 import ContactsList from './ContactCards/ContactsList';
 import Shop from './DynamicNav/Shop';
 import Form from './Forms/Form';
@@ -21,6 +22,7 @@ const App = () => {
             <Route path="/about" component={About}/>
             <Route path="/tempcontrol" component={TempControl}/>
             <Route path="/quiz" component={Quiz}/>
+            <Route path="/shoppinglist" component={ShoppingList}/>
             <Route path="/contactslist" component={ContactsList}/>  
             <Route path="/shop" exact component={Shop}/>
             <Route path="/shop/:id" component={ItemDetail}/>

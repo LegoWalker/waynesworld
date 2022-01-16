@@ -32,6 +32,10 @@ const Navigate = () => {
                 <li> Quiz </li> 
             </Link>
             |
+            <Link style={navStyle} to='/shoppinglist'>
+                <li> Shopping </li> 
+            </Link>
+            |
             <Link style={navStyle} to='/contactslist'>
                 <li> Contacts </li> 
             </Link>
