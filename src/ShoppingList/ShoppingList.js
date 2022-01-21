@@ -13,13 +13,54 @@ const ShoppingList = () => {
 	]);
 
 	const [inputValue, setInputValue] = useState("");
+	const [totalItemCount, setTotalItemCount] = useState(7);
 
 	const handleAddButtonClick = () => {
 		const newItem = {
 			itemName: inputValue, 
-			quantity: 1, 
+			quantity: 0, 
 			isSelected: false
 		}
+
+		const newItems = [...items, newItem];
+		setItems(newItems);
+		setInputValue('');
+	}
+
+	const handleQuantityDecrease = (index) => {
+		const newItems = [...items];
+
+		newItems[index].quantity--;
+
+		setItems(newItems);
+		calculateTotal();
+	}
+
+	const handleQuantityIncrease = (index) => {
+		const newItems = [...items];
+
+		newItems[index].quantity++;
+
+		setItems(newItems);
+		calculateTotal();
+
+		//alert("Increase button was clicked at position " + index);		
+	}
+
+	const toggleComplete = (index) => {
+		const newItems = [...items];
+
+		newItems[index].isSelected = !newItems[index].isSelected;
+
+		setItems(newItems);
+	}
+
+	const calculateTotal = () => {
+		const totalItemCount = items.reduce((total, item) =>{
+			return total + item.quantity;
+		}, 0);
+
+		setTotalItemCount(totalItemCount);
 	}
 
 	return (
@@ -34,7 +75,7 @@ const ShoppingList = () => {
 					<div className='item-list'>
 						{items.map((item, index) => 
 							<div className='item-container'>
-							<div className='item-name'>
+							<div className='item-name' onClick={()=> toggleComplete(index)}>
 								{/* HINT: replace false with a boolean indicating the item has been completed or not */}
 								{item.isSelected ? (
 									<>
@@ -50,17 +91,17 @@ const ShoppingList = () => {
 							</div>
 							<div className='quantity'>
 								<button className='sl-button'>
-									<FontAwesomeIcon icon={faChevronLeft} />
+									<FontAwesomeIcon icon={faChevronLeft} onClick={()=> handleQuantityDecrease(index)}/>
 								</button>
 								<span> {item.quantity} </span>
 								<button className='sl-button'>
-									<FontAwesomeIcon icon={faChevronRight} />
+									<FontAwesomeIcon icon={faChevronRight} onClick={()=> handleQuantityIncrease(index)}/>
 								</button>
 							</div>
 						</div>	
 						)}				
 					</div>
-					<div className='total'>Total: 6</div>
+					<div className='total'>Total: {totalItemCount}</div>
 				</div>
 			</div>
 		</div>

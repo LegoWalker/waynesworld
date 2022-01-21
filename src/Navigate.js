@@ -24,6 +24,10 @@ const Navigate = () => {
                 <li> Form </li>       
             </Link>
             |
+            <Link style={navStyle} to='/movies'> 
+                <li> Movies </li>       
+            </Link>
+            |
             <Link style={navStyle} to='/tempcontrol'>
                 <li> Temperature </li> 
             </Link>
