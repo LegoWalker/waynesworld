@@ -1,0 +1,3 @@
+From the Terminal window, do these:
+ * npm install --save gh-pages
+ * npm run deploy

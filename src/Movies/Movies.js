@@ -39,7 +39,7 @@ const Movies = () => {
     // ]);
 
     const getMovieRequest = async () => {
-        const url = "http://www.omdbapi.com/?s=avengers&apikey=c356b86d";
+        const url = "https://www.omdbapi.com/?s=avengers&apikey=c356b86d";
 
         const response = await fetch(url);
         const responseJson = await response.json();
@@ -54,6 +54,7 @@ const Movies = () => {
 
     return (
         <div>
+            <div>Version 1</div>
             <div className='movies-body container-fluid movie-app' >
                 <div className='row'>
                     <MovieList movies={movies}></MovieList>
