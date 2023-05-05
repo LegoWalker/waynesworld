@@ -18,13 +18,21 @@ const ShoppingList = () => {
 	const handleAddButtonClick = () => {
 		const newItem = {
 			itemName: inputValue, 
-			quantity: 0, 
+			quantity: 1, 
 			isSelected: false
 		}
 
 		const newItems = [...items, newItem];
 		setItems(newItems);
 		setInputValue('');
+		//calculateTotal();
+		const totalItemCount = newItems.reduce((total, item) =>{
+			return total + item.quantity;
+		}, 0);
+
+		setTotalItemCount(totalItemCount);
+		
+		alert("New total is " + totalItemCount);
 	}
 
 	const handleQuantityDecrease = (index) => {
