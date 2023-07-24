@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/waynesworld/static/css/main.0361d719.chunk.css",
-    "main.js": "/waynesworld/static/js/main.1ffbe6cf.chunk.js",
-    "main.js.map": "/waynesworld/static/js/main.1ffbe6cf.chunk.js.map",
+    "main.js": "/waynesworld/static/js/main.2fe61795.chunk.js",
+    "main.js.map": "/waynesworld/static/js/main.2fe61795.chunk.js.map",
     "runtime-main.js": "/waynesworld/static/js/runtime-main.28abdda2.js",
     "runtime-main.js.map": "/waynesworld/static/js/runtime-main.28abdda2.js.map",
     "static/css/2.383c0125.chunk.css": "/waynesworld/static/css/2.383c0125.chunk.css",
@@ -21,6 +21,6 @@
     "static/css/2.383c0125.chunk.css",
     "static/js/2.65308aa1.chunk.js",
     "static/css/main.0361d719.chunk.css",
-    "static/js/main.1ffbe6cf.chunk.js"
+    "static/js/main.2fe61795.chunk.js"
   ]
 }
