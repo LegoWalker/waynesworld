@@ -60,7 +60,6 @@ const Movies = () => {
 
     return (
         <div>
-            <div>Version 2</div>
             <div className="row d-flex align-items-center mt-4 mb-4">
                 <MovieListHeading heading="Movies"></MovieListHeading>
                 <SearchBox searchValue={searchValue} setSearchValue={setSearchValue}></SearchBox>
