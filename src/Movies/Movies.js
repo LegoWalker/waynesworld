@@ -38,7 +38,9 @@ const Movies = () => {
             localStorage.getItem('react-movie-app-favourites')
         );
 
-        setFavourites(MovieFavourites);
+        if (MovieFavourites) {
+            setFavourites(MovieFavourites);
+        }
     }, []);
 
     const saveToLocalStorage = (items) => {
