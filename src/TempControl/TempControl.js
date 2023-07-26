@@ -8,11 +8,11 @@ const TempControl = () => {
   const increaseTemperature = () => {
     //const newTemperature = (temperature == 25) ? temperature : temperature + 1;
     if (temperature == 25) return;
-    const newTemperature = temperature + 1;      
+    const newTemperature = temperature + 1;
 
     if (newTemperature >= 15) {
       setTempColor('hot')
-    } 
+    }
     else if (newTemperature <= 10) {
       setTempColor('cold')
     }
@@ -27,25 +27,25 @@ const TempControl = () => {
 
     if (newTemperature <= 10) {
       setTempColor('cold')
-    } 
+    }
     else if (newTemperature >= 15) {
       setTempColor('hot')
-    } 
+    }
     else setTempColor('')
 
     setTemperature(newTemperature);
   };
 
-  return(
+  return (
     <div className="body-container">
-      <div className="app-container">
-          <div className="temperature-display-container">
-              <div className={`temperature-display ${tempColor}`}>{temperature}°C</div>
-          </div>
-          <div className='button-container'>
-            <button onClick={() => increaseTemperature()} className='round-button'>+</button>
-            <button onClick={() => decreaseTemperature()} className='round-button'>-</button>
-          </div>          
+      <div className="app-container1">
+        <div className="temperature-display-container">
+          <div className={`temperature-display ${tempColor}`}>{temperature}°C</div>
+        </div>
+        <div className='button-container'>
+          <button onClick={() => increaseTemperature()} className='round-button'>+</button>
+          <button onClick={() => decreaseTemperature()} className='round-button'>-</button>
+        </div>
       </div>
     </div>
   );

@@ -11,6 +11,7 @@ import TempControl from './TempControl/TempControl';
 import Quiz from './Quiz/Quiz';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Movies from './Movies/Movies';
+import Table from './TableExample/Table';
 
 const App = () => {
 
@@ -29,6 +30,7 @@ const App = () => {
           <Route path="/shop/:id" component={ItemDetail} />
           <Route path="/form" component={Form} />
           <Route path="/movies" component={Movies} />
+          <Route path="/table" component={Table} />
         </Switch>
       </div>
     </Router>
