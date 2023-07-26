@@ -41,7 +41,7 @@ const Home = () => {
   return (
     <div>
       <h1>Home Page</h1>
-      <h3>Version 2</h3>
+      <h3>Version 3.0</h3>
     </div>
   );
 }
